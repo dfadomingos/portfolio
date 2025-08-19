@@ -245,6 +245,79 @@ footer{
     color: var(--text);
 }
 
+/* ===== Formulário de Contato ===== */
+/* ===== Formulário de Contato Ajustado ===== */
+.contact{
+    padding: 5rem 5%;
+}
+
+.contact h2{
+    margin-bottom: 2rem;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto; /* centraliza */
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.05); /* similar aos cards */
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: var(--text);
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 8px;
+  font-size: 16px;
+  background: transparent;
+  color: var(--text);
+  transition: all 0.3s ease;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--accent);
+  outline: none;
+  box-shadow: 0 0 10px var(--accent-glow);
+  background: rgba(255,255,255,0.05);
+}
+
+.contact-form button {
+  padding: 12px;
+  background: linear-gradient(45deg, var(--accent), #27ae60);
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: linear-gradient(45deg, #27ae60, var(--accent));
+}
+
+#form-message {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--text);
+}
+
+
 @media (max-width: 768px){
     .hero{
         flex-direction: column;

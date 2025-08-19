@@ -9,7 +9,7 @@
 </head>
 <body>
     <nav class="navbar">
-        <a href="#home" class="logo">CyberDev</a>
+        <a href="#home" class="logo">Domingos Dev</a>
         <ul class="nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#skills">Skills</a></li>
@@ -25,7 +25,7 @@
             <a href="#contact" class="cta-button">Let's connect</a>
         </div>
         <div class="hero-image">
-            <img src="profile.jpg" alt="Profile" class="profile-img">
+            <img src="profile3.jpg" alt="Profile" class="profile-img">
         </div>
     </section>
 
@@ -55,13 +55,13 @@
             <div class="project-card">
                 <div class="project-title">
                     <i class="fa-solid fa-code"></i>
-                    <span>Projeto 1</span>
+                    <span>Projeto Android</span>
                 </div> 
                 <div class="imagem"></div>               
-                <p>Tecnologias</p>
+                <p>HTML, CSS</p>
                 <div class="link">
                     <p>Link:</p>
-                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://dfadomingos.github.io/projeto-android/" target="_blank"><i class="fa-brands fa-github"></i></a>
                 </div>                
             </div>
             <div class="project-card">
@@ -91,6 +91,17 @@
         </div>
     </section>
     
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <form id="contact-form" class="contact-form">
+            <input type="text" name="name" placeholder="Seu nome" required>
+            <input type="email" name="email" placeholder="Seu e-mail" required>
+            <textarea name="message" rows="5" placeholder="Sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="form-message"></p>
+    </section>
+
     <footer>
         <p>&copy; 2025 Domingos. All right reserved.</p>
         <div class="social-links">
@@ -101,6 +112,7 @@
         </div>
     </footer>
 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script src="script.js"></script>
     
 </body>

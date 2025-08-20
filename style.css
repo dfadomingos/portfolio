@@ -263,6 +263,40 @@ footer{
     font-size: 1.3rem;
 }
 
+.experience{
+    padding: 5rem 5%;
+    background: var(--darker-bg);
+}
+
+.experience-grid{
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.experience-card{
+    padding: 2rem;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.05);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+}
+
+.experience-card ul{
+    margin-left: 18px;
+}
+
+.experience-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;    
+    font-size: 1.5rem;
+    color: var(--accent); 
+    margin-bottom: 10px;   
+}
+
 /* ===== Formulário de Contato ===== */
 .contact{
     padding: 5rem 5%;
@@ -274,9 +308,9 @@ footer{
 
 .contact-form {
   max-width: 600px;
-  margin: 0 auto; /* centraliza */
+  margin: 0 auto; 
   padding: 2rem;
-  background: rgba(255, 255, 255, 0.05); /* similar aos cards */
+  background: rgba(255, 255, 255, 0.05); 
   border-radius: 15px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(5px);
